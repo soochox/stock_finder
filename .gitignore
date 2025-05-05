@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+.venv/
+env/
+venv/
+
+# Streamlit cache & logs
+.streamlit/
+.streamlit/cache/
+.streamlit/*.toml
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# macOS, Windows system files
+.DS_Store
+Thumbs.db
+
+# SQLite or temporary data files
+*.sqlite3
+*.db
+*.log
+
+# App-specific
+favorites.json
