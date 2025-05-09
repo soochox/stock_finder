@@ -97,7 +97,7 @@ if favorites:
         else:
             label = f"{sym} (N/A)"
             col_names.append(label)
-            for key in ["현재가", "등락률", "RSI", "거래량변화%", "20일 이격도", "200일 이격도"]:
+            for key in ["현재가", "등락", "RSI", "거래량변화%", "20일 이격도", "200일 이격도"]:
                 data.setdefault(key, []).append("N/A")
 
     # print(data)  # Debugging line
